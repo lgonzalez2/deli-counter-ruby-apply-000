@@ -29,6 +29,17 @@ def take_a_number(katz_deli, name)
   end
 end
 
+def  take_a_number_2(katz_deli)
+  index = 0
+  num = katz_deli[index] + 1 
+  
+  
+  
+    puts "Welcome! You are number #{}."
+    
+end
+
+
 
 def now_serving(katz_deli)
   if katz_deli.length == 0
