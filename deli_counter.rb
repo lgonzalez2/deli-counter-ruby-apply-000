@@ -11,6 +11,7 @@ def line(katz_deli)
       current_position = " #{num}. #{name}"
       line_display << current_position
       num += 1 
+    end
   end
   
   puts line_display
