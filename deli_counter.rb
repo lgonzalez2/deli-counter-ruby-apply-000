@@ -39,6 +39,7 @@ def  take_a_number_2(katz_deli)
     
 end
 
+take_a_number_2([1,2,3])
 
 
 def now_serving(katz_deli)
