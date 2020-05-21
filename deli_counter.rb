@@ -30,16 +30,15 @@ def take_a_number(katz_deli, name)
 end
 
 def  take_a_number_2(katz_deli)
-  index = 0
-  num = katz_deli[index] + 1 
-  
-  
-  
-    puts "#{num}"
+
+  katz_deli.each do |num|
+    puts "Welcome! You are number #{num}"
+  end
+
     
 end
 
-take_a_number_2([])
+take_a_number_2([1,2,3])
 
 
 def now_serving(katz_deli)
